@@ -24,8 +24,7 @@ describe('GitUserSearchController', function() {
       "avatar_url": "https://avatars.githubusercontent.com/u/196474?v=3",
       "html_url": "https://github.com/stephenlloyd"
     }
-  ];
-
+    ];
     var httpBackend;
     beforeEach(inject(function($httpBackend) {
       httpBackend = $httpBackend
